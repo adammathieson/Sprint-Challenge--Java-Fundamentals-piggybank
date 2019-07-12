@@ -8,15 +8,22 @@ public class Dime extends Money
 		value = .1;
 	}
 
+	public Dime()
+	{
+		value = .1;
+	}
+
+
+
 	@Override
 	public String totalValue()
 	{
 		if (this.count == 1)
 		{
-			return count + "Dime";
+			return count + " Dime";
 		} else
 		{
-			return count + "Dimes";
+			return count + " Dimes";
 		}
 	}
 }

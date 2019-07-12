@@ -9,6 +9,11 @@ public abstract class Money
 	{
 		this.count = count;
 	}
+	
+	public Money()
+	{
+
+	}
 
 	// Absrtct methods
 	public abstract String totalValue();
@@ -24,6 +29,5 @@ public abstract class Money
 	{
 		return count * value;
 	}
-
 
 }

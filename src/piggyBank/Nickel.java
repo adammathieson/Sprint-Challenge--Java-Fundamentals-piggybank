@@ -8,15 +8,20 @@ public class Nickel extends Money
 		value = .05;
 	}
 
+	public Nickel()
+	{
+		value = .05;
+	}
+
 	@Override
 	public String totalValue()
 	{
 		if (this.count == 1)
 		{;
-			return count + "Nickels";
+			return count + " Nickels";
 		} else
-		{
-			return count + "Nickels";
+		{ 
+			return count + " Nickels";
 		}
 	}
 }

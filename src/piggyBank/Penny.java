@@ -8,15 +8,20 @@ public class Penny extends Money
 		value = .01;
 	}
 
+		public Penny()
+	{
+		value = .01;
+	}
+
 	@Override
 	public String totalValue()
 	{
 		if (this.count == 1)
 		{
-			return count + "Penny";
+			return count + " Penny";
 		} else
 		{
-			return count + "Pennies";
+			return count + " Pennies";
 		}
 	}
 }
